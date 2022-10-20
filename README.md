@@ -1,4 +1,4 @@
-# Scrimba Solo Project 1
+# Scrimba Solo Project 2
 
 
 ### Live Preview on Netlify

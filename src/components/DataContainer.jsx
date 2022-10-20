@@ -5,15 +5,29 @@ import image3 from "../assets/image3.png";
 import marker from "../assets/marker.png";
 
 function DataContainer(props) {
-  console.log(props);
+  let imagePath;
+
+  switch (props.obj.id) {
+    case 1:
+      imagePath = image1;
+      break;
+    case 2:
+      imagePath = image2;
+      break;
+    case 3:
+      imagePath = image3;
+      break;
+  }
+
   return (
     <section>
-      <img src={props.obj.imageUrl}></img>
+      <img src={imagePath}></img>
       <div>
-        <div>
+        <div className="location--div">
           <img src={marker}></img>
           <h2>
-            {props.obj.location} <span>View on Google Maps</span>
+            {props.obj.location.toUpperCase()}
+            <span className="location--span">View on Google Maps</span>
           </h2>
         </div>
         <h1>{props.obj.title}</h1>

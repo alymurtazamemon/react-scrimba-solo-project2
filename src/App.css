@@ -3,6 +3,43 @@ body {
     font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+section {
+    padding: 40px 80px;
+    display: flex;
+    width: 870px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section > img {
+    height: 286px;
+    width: 225px;
+    margin-right: 40px;
+    border-radius: 12px;
+}
+
+section > div > h1 {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2B283A;
+}
+
+section > div > h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2B283A;
+}
+
+section > div > p {
+    font-weight: 200;
+    color: #2B283A;
+    line-height: 150%;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
 .navbar {
     background-color: #F55A5A;
     height: 80px;
@@ -21,4 +58,28 @@ body {
     color: white;
     font-weight: 500;
     font-size: 24px;
+}
+
+.location--div {
+    display: flex;
+    align-items: center;
+}
+
+.location--div > img {
+    width: 12px;
+    margin-right: 8px;
+}
+
+.location--div> h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B283A;
+}
+
+.location--span {
+    margin-left: 12px;
+    font-weight: 400;
+    color: #918E9B;
+    text-decoration: underline;
+    margin-bottom: 0;
 }

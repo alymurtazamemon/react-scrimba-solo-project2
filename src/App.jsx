@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import DataContainer from "./components/DataContainer";
+import Navbar from "./components/Navbar.jsx";
+import DataContainer from "./components/DataContainer.jsx";
 import data from "./data";
 
 function App() {

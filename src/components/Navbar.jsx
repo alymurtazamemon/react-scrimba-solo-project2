@@ -1,5 +1,12 @@
+import earth from "../assets/earth.png";
+
 function Navbar() {
-  return <div>Hello world</div>;
+  return (
+    <nav className="navbar">
+      <img src={earth}></img>
+      <h3>my travel journey.</h3>
+    </nav>
+  );
 }
 
 export default Navbar;
